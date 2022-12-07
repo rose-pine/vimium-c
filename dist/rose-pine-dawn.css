@@ -1,0 +1,104 @@
+/* find-host, not working write to the find-host section, so I put it outside */
+.R.HM.D>.LH {
+    background: #286983cc;
+    border: none;
+    border-radius: 1px;
+    backdrop-filter: blur(1.5px);
+    color: #575279;
+}
+
+/* #ui */
+.HUD,
+.TEE {
+    padding: 0;
+    bottom: 1px;
+}
+
+@media screen and (min-width: 1260px) {
+    .Omnibar {
+       left: calc(20vw - 12px);
+       width: calc(60vw + 24px); 
+    }
+}
+@media screen and (min-width: 1760px) {
+    .Omnibar {
+       left: calc(30vw - 12px);
+       width: calc(40vw + 24px); 
+    }
+}
+
+/* #omni */
+#bar {
+    background: #1f1d2e;
+
+    border-bottom: none;
+}
+
+#list {
+    background: #faf4ed;
+}
+
+#input {
+    background: #faf4ed;
+
+    box-shadow: none;
+}
+
+body::after {
+    border: none;
+}
+
+.item {
+    border-bottom: none;
+    padding-top: 0px;
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item.s,
+.item:hover {
+    background-color: #cecacd;
+}
+
+.top {
+    color: #575279;
+
+}
+
+.bottom {
+    width: 20rem;
+    overflow: hidden;
+}
+
+.bottom>a {
+    font-size: .7rem;
+}
+
+#toolbar {
+    display: none;
+}
+
+/* #find */
+
+.r.D {
+    background: #faf4ed;
+    color: #575279;
+}
+
+.r {
+    box-shadow: inset 0 0 1px 0.5px #907aa9;
+}
+
+/* #find:host */
+
+
+
+/* #find:selection */
+::selection {
+    background: #ea9d34 !important;
+    color: #575279;
+}

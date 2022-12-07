@@ -1,10 +1,10 @@
 /* find-host, not working write to the find-host section, so I put it outside */
 .R.HM.D>.LH {
-    background: #31748fcc;
+    background: _pinecc;
     border: none;
     border-radius: 1px;
     backdrop-filter: blur(1.5px);
-    color: #e0def4;
+    color: _text;
 }
 
 /* #ui */
@@ -13,8 +13,6 @@
     padding: 0;
     bottom: 1px;
 }
-
-
 
 @media screen and (min-width: 1260px) {
     .Omnibar {
@@ -29,7 +27,6 @@
     }
 }
 
-
 /* #omni */
 #bar {
     background: #1f1d2e;
@@ -38,11 +35,11 @@
 }
 
 #list {
-    background: #191724;
+    background: _base;
 }
 
 #input {
-    background: #191724;
+    background: _base;
 
     box-shadow: none;
 }
@@ -64,11 +61,11 @@ body::after {
 
 .item.s,
 .item:hover {
-    background-color: #524f67;
+    background-color: _highlightHigh;
 }
 
 .top {
-    color: #e0def4;
+    color: _text;
 
 }
 
@@ -88,12 +85,12 @@ body::after {
 /* #find */
 
 .r.D {
-    background: #1f1d2e;
-    color: #cecacd;
+    background: _base;
+    color: _text;
 }
 
 .r {
-    box-shadow: inset 0 0 1.5px 1px #6e6a86;
+    box-shadow: inset 0 0 1px 0.5px _iris;
 }
 
 /* #find:host */
@@ -103,5 +100,5 @@ body::after {
 /* #find:selection */
 ::selection {
     background: #ea9d34 !important;
-    color: #e0def4;
+    color: _text;
 }
