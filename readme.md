@@ -15,7 +15,7 @@
 
 1. navigate to Vimium C extension option page
 2. find "Custom CSS for Vimium C UI"
-3. copy and paste vimiumc.css to it
+3. copy and paste dist/theme.css to the textbox
 
 | Custome style in Vimium C detail find [Style the UI of Vimium C using custom CSS](https://github.com/gdh1995/vimium-c/wiki/Style-the-UI-of-Vimium-C-using-custom-CSS)
 
