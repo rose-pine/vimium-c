@@ -4,7 +4,7 @@
     border: none;
     border-radius: 1px;
     backdrop-filter: blur(1.5px);
-    color: _text;
+    color: #e0def4;
 }
 
 /* #ui */
@@ -29,7 +29,7 @@
 
 /* #omni */
 #bar {
-    background: #1f1d2e;
+    background: _base;
 
     border-bottom: none;
 }
@@ -42,6 +42,7 @@
     background: _base;
 
     box-shadow: none;
+    border-color: _highlightHigh;
 }
 
 body::after {
@@ -66,7 +67,7 @@ body::after {
 
 .top {
     color: _text;
-
+    width: 30rem;
 }
 
 .bottom {

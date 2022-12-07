@@ -29,7 +29,7 @@
 
 /* #omni */
 #bar {
-    background: #1f1d2e;
+    background: #232136;
 
     border-bottom: none;
 }
@@ -42,6 +42,7 @@
     background: #232136;
 
     box-shadow: none;
+    border-color: #56526e;
 }
 
 body::after {
@@ -66,7 +67,7 @@ body::after {
 
 .top {
     color: #e0def4;
-
+    width: 30rem;
 }
 
 .bottom {
