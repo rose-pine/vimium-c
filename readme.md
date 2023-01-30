@@ -49,7 +49,7 @@ Modify template.css using Rosé Pine variables, then build variants:
 npx @rose-pine/build@latest -s false -p _ -t template.css 
 ```
 
-Or use the include shell script:
+Or use the included shell script:
 
 ```sh
 sh ./build.sh
